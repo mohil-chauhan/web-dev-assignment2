@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #0b4fa2;
+  color: white;
+  padding: 20px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  background: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+/* About */
+#about img {
+  width: 180px;
+  margin: 20px 0;
+}
+
+/* Table */
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th {
+  background: #0b4fa2;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #0b4fa2;
+  padding: 10px;
+}
+
+/* Project cards */
+.card {
+  width: 60%;
+  margin: 15px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Contact form */
+form {
+  width: 60%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+label {
+  width: 80px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input, textarea {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 25px;
+  background: #0b4fa2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #083b7a;
+}
+
+/* HR */
+hr {
+  width: 85%;
+  margin: 40px auto;
+}
+
+/* Back to top */
+.back {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0b4fa2;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+}
